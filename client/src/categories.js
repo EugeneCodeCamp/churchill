@@ -1,10 +1,10 @@
 const categories = [
-  'Algebra',
-  'Geometry',
-  'Statistics and Probability',
-  'Algebra 2',
-  'Precalculus',
-  'Calculus'
+  'music',
+  'funny',
+  'videos',
+  'programming',
+  'news',
+  'fashion'
 ];
 
 export default categories;
