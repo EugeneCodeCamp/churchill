@@ -1,7 +1,7 @@
 module.exports = {
   port: 8080,
   db: {
-    prod: process.env.DATABASE_URL || 'mongodb://localhost/reddit',
+    prod: process.env.DATABASE_URL || 'mongodb://68fe06c3.ngrok.io/reddit',
     test: 'mongodb://localhost/reddit_test',
     options: {
       useNewUrlParser: true,
