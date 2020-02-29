@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === 'development'
-    ? 'http://68fe06c3.ngrok.io:8080/api'
+    ? 'http://localhost:8080/api'
     : `https://${window.location.hostname}/api`;
 
 const methods = {
