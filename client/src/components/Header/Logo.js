@@ -19,6 +19,6 @@ const Logo = styled(Link)`
   }
 `;
 
-const HeaderLogo = () => <Logo to='/'>{<img src="./iuvo.png" alt="logo" />}</Logo>;
+const HeaderLogo = () => <Logo to='/'><img src={./iuvo.png} alt={"logo"} /></Logo>;
 
 export default HeaderLogo;
