@@ -25,7 +25,7 @@ const Wrapper = styled.header`
   }
 
   @media (max-width: 768px) {
-    padding: 5;
+    padding: 5px;
   }
 `;
 
