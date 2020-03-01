@@ -13,6 +13,7 @@ class Dashboard extends Component {
   hideModal = () => {
     this.setState({ show: false });
   };
+}
 
 const Wrapper = styled.div`
   display: flex;
