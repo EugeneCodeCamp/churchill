@@ -1,7 +1,4 @@
-const baseUrl =
-  process.env.NODE_ENV === 'development'
-    ? 'http://localhost:8080/api'
-    : `https://${window.location.hostname}/api`;
+const baseUrl = `https://89b6e55f.ngrok.io/api`;
 
 const methods = {
   get: async function (endpoint, token = null) {
