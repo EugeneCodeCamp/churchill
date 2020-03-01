@@ -34,7 +34,7 @@ class PostDetailInfoBar extends React.Component {
             this.props.user.admin) && (
               <div>
             <DeleteButton onClick={this.deletePost} />
-            <SubmitButton onClick={this.Modal}>More Help</SubmitButton>
+            <SubmitButton onClick={this.popitup}>More Help</SubmitButton>
             </div>
           )}
       </Wrapper>
