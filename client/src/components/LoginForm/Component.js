@@ -29,7 +29,7 @@ class LoginForm extends React.Component {
         onSubmit={this.props.handleSubmit(this.onSubmit)}
       >
         <Field
-          name='username'
+          name='test'
           label='username'
           type='text'
           component={renderField}
