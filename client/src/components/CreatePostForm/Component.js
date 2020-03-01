@@ -7,7 +7,7 @@ import SubmitButton from '../shared/form/SubmitButton';
 
 const postTypes = [
   {
-    label: 'Problem specifications, click to add details box.',
+    label: 'Problem specifications',
     value: 'text'
   }
 ];
