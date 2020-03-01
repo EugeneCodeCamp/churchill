@@ -21,14 +21,14 @@ const dark = {
 
 const light = {
   ...constants,
-  normalText: '#454f5b',
-  mutedText: '#818e99',
+  normalText: '#ffffff',
+  mutedText: '#e6e6e6',
   border: '#ebedf0',
   accent: '#1890ff',
   pageBackground: '#F6E5C3',
   voteButtonHover: '#f2f2f2',
-  foreground: '#F6DAC3',
-  activeBackground: '#fafafa',
+  foreground: '#cc3333',
+  activeBackground: '#b13f3f',
   inputBackground: '#fcfcfc',
   shadow: 'rgba(0, 0, 0, 0.05)'
 };
