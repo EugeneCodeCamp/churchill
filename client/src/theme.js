@@ -21,7 +21,7 @@ const dark = {
 
 const light = {
   ...constants,
-  normalText: '#ffffff',
+  normalText: '#fe6e6e6',
   mutedText: '#e6e6e6',
   border: '#ebedf0',
   accent: '#1890ff',
