@@ -29,8 +29,8 @@ class LoginForm extends React.Component {
         onSubmit={this.props.handleSubmit(this.onSubmit)}
       >
         <Field
-          name='test'
-          label='test'
+          name='username'
+          label='username'
           type='text'
           component={renderField}
           validate={usernameValidator}
