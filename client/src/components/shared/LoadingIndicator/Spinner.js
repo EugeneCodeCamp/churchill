@@ -7,7 +7,7 @@ const spin = keyframes`
   }
 
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(100deg);
   }
 `;
 
