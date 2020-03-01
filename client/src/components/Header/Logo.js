@@ -1,9 +1,10 @@
-import {logo} from './iuvo.png';
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 import { headerItem } from '../shared/helpers';
-`
+import {logo} from './iuvo.png';
+
+const Logo = styled(Link)`
   ${headerItem};
   
   margin-right: auto;
@@ -18,6 +19,6 @@ import { headerItem } from '../shared/helpers';
   }
 `;
 
-const HeaderLogo = () => <Logo to='/'><img src={./iuvo.png} alt={"logo"} /></Logo>;
+const HeaderLogo = () => <Logo to='/'><img src={logo} alt={"logo"} /></Logo>;
 
 export default HeaderLogo;
