@@ -30,7 +30,7 @@ class LoginForm extends React.Component {
       >
         <Field
           name='test'
-          label='username'
+          label='test'
           type='text'
           component={renderField}
           validate={usernameValidator}
