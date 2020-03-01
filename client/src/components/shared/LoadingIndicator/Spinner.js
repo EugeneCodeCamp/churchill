@@ -20,7 +20,7 @@ const LoadingIndicatorSpinner = styled.div`
   border-top-color: ${props => props.theme.accent};
   border-radius: 50%;
   width: 200px;
-  height: 48px;
+  height: 200px;
 `;
 
 export default LoadingIndicatorSpinner;
