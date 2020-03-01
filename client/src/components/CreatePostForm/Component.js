@@ -7,7 +7,7 @@ import SubmitButton from '../shared/form/SubmitButton';
 
 const postTypes = [
   {
-    label: 'link',
+    label: 'problem',
     value: 'text'
   },
   {
@@ -56,7 +56,7 @@ class CreatePostForm extends React.Component {
         </Field>
         <Field name='title' label='Math problem' type='text' component={renderField} />
         {this.props.form.values.type === 'link' && (
-          <Field name='url' label='url' type='url' component={renderField} />
+          <Field name='url' label='url for useful materials, if none put in https://www.google.com' type='url' component={renderField} />
         )}
         {this.props.form.values.type === 'text' && (
           <Field
