@@ -35,7 +35,7 @@ const mapDispatchToProps = { attemptCreatePost };
 const enhance = compose(
   reduxForm({
     form: 'createPost',
-    initialValues: { category: categories[0], type: 'link' },
+    initialValues: { category: categories[0], type: 'text' },
     validate
   }),
   withAuth,
