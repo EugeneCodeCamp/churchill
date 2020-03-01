@@ -11,7 +11,7 @@ const postTypes = [
     value: 'text'
   },
   {
-    label: 'to change me go to client/src/components/CreatePostForm/Component.js change label: thing on 14th line',
+    label: 'Problem specifications',
     value: 'text'
   }
 ];
@@ -56,7 +56,7 @@ class CreatePostForm extends React.Component {
         </Field>
         <Field name='title' label='Math problem' type='text' component={renderField} />
         {this.props.form.values.type === 'link' && (
-          <Field name='url' label='url for useful materials, if none put in https://www.google.com' type='url' component={renderField} />
+          <Field name='url' label='url for useful materials, if none: put in https://www.google.com' type='url' component={renderField} />
         )}
         {this.props.form.values.type === 'text' && (
           <Field
