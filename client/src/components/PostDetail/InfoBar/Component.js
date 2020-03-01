@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import styled from 'styled-components/macro';
 import DeleteButton from '../../shared/DeleteButton';
-import SubmitButton from '../shared/form/SubmitButton';
+import SubmitButton from '../../shared/form/SubmitButton';
 
 class Dashboard extends Component {
   state = { show: false };
