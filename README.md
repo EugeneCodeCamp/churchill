@@ -1,3 +1,13 @@
+# iuvo
+
+This is Team Churchills solution to tutoring. The contributers are:
+Alex Jentschn
+Lairen Miller
+Miles Ward
+Mithrandir Echner
+Quinn Wright
+
+We based this project off of Asperitas.
 # asperitas
 
 Asperitas is a full stack reddit clone that I wrote to learn more about Node.js, React, and NoSQL databases. The name asperitas comes from a type of [cloud](https://en.wikipedia.org/wiki/Asperitas_(cloud)).
