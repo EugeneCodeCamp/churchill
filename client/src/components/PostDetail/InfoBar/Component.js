@@ -37,9 +37,4 @@ class PostDetailInfoBar extends React.Component {
   }
 }
 
-
-const container = document.createElement("div");
-document.body.appendChild(container);
-ReactDOM.render(<Dashboard />, container);
-
 export default PostDetailInfoBar;
