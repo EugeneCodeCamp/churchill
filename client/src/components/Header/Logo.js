@@ -18,8 +18,6 @@ const Logo = styled(Link)`
   }
 `;
 
-function HeaderLogo() {
-  return <a href="/"><img src={logoImage} alt="Logo" /></a>;
-}
+const HeaderLogo = () => <Logo to='/'><img src={logoImage} alt="Logo" /></Logo>;
 
 export default HeaderLogo;
