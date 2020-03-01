@@ -1,4 +1,4 @@
-const baseUrl = `https://287c71e9.ngrok.io/api`;
+const baseUrl = `https://884519d6.ngrok.io/api`;
 
 const methods = {
   get: async function (endpoint, token = null) {
