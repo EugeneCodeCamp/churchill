@@ -44,7 +44,7 @@ class PostDetailInfoBar extends React.Component {
           (this.props.user.id === this.props.author.id ||
             this.props.user.admin) && (
             <DeleteButton onClick={this.deletePost} />
-            <SubmitButton onClick={this.showModal}>More Help</SubmitButton>
+            <SubmitButton onClick={this.showModal}>{"More Help"}</SubmitButton>
           )}
       </Wrapper>
     );
