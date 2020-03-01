@@ -2,23 +2,24 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 import { headerItem } from '../shared/helpers';
-import {logo} from './iuvo.png';
+import logoImage from './iuvo.png';
 
 const Logo = styled(Link)`
   ${headerItem};
-  
+
   margin-right: auto;
-  font-size: 24px;
-  font-weight: 500;
-  color: ${props => props.theme.normalText};
-  text-decoration: none;
-  
+  height: 100px;
+  width: auto;
+
   @media (max-width: 425px) {
     padding: 0 8px 0 16px;
-    font-size: 19px;
+    height: 50px;
+    width: auto;
   }
 `;
 
-const HeaderLogo = () => <Logo to='/'><img src={logo} alt={"logo"} /></Logo>;
+function HeaderLogo() {
+  return <a href="/"><img src={logoImage} alt="Logo" /></a>;
+}
 
 export default HeaderLogo;
