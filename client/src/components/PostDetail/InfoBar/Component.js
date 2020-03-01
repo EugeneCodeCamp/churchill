@@ -1,6 +1,19 @@
-import React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import styled from 'styled-components/macro';
 import DeleteButton from '../../shared/DeleteButton';
+import SubmitButton from '../shared/form/SubmitButton';
+
+class Dashboard extends Component {
+  state = { show: false };
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
 
 const Wrapper = styled.div`
   display: flex;
@@ -30,11 +43,19 @@ class PostDetailInfoBar extends React.Component {
         {this.props.token &&
           (this.props.user.id === this.props.author.id ||
             this.props.user.admin) && (
+              <div>
             <DeleteButton onClick={this.deletePost} />
+            <SubmitButton onClick={this.showModal}>More Help</SubmitButton>
+            </div>
           )}
       </Wrapper>
     );
   }
 }
+
+
+const container = document.createElement("div");
+document.body.appendChild(container);
+ReactDOM.render(<Dashboard />, container);
 
 export default PostDetailInfoBar;
