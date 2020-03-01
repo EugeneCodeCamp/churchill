@@ -1,4 +1,4 @@
-import logo from './iuvo.png'
+import logo from {'./iuvo.png'}
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
