@@ -30,7 +30,7 @@ class CommentFormTextArea extends React.Component {
     <TextArea
       as='textarea'
       {...field.input}
-      placeholder='avid quistion name, edit this at client/src/components/CommentForm/TextArea.js'
+      placeholder='Ask quistion to lead the person to the correct awnser'
       rows='2'
       onKeyDown={this.onKeyDown}
     />
