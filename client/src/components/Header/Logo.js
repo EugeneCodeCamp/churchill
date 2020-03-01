@@ -1,8 +1,9 @@
+import logo from './iuvo.png'
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 import { headerItem } from '../shared/helpers';
-
+import 
 const Logo = styled(Link)`
   ${headerItem};
   
@@ -18,6 +19,6 @@ const Logo = styled(Link)`
   }
 `;
 
-const HeaderLogo = () => <Logo to='/'>{<img src="client/src/components/Header/iuvo.png" alt="logo" />}</Logo>;
+const HeaderLogo = () => <Logo to='/'>{<img src="./iuvo.png" alt="logo" />}</Logo>;
 
 export default HeaderLogo;
