@@ -37,7 +37,7 @@ class LoginForm extends React.Component {
         />
         <Field
           name='password'
-          label='password'
+          label='test'
           type='password'
           component={renderField}
           validate={passwordValidator}
