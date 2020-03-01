@@ -42,7 +42,7 @@ class LoginForm extends React.Component {
           component={renderField}
           validate={passwordValidator}
         />
-        <SubmitButton type='submit'>log in</SubmitButton>
+        <SubmitButton type='submit'>test</SubmitButton>
       </Form>
     );
   }
