@@ -12,7 +12,7 @@ const Logo = styled(Link)`
   width: auto;
 
   @media (max-width: 425px) {
-    padding: 0 8px 0 16px;
+    padding: 0 8px 0 20px;
     height: 50px;
     width: auto;
   }
