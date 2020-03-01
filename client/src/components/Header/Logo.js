@@ -19,5 +19,5 @@ const Logo = styled(Link)`
 `;
 
 const HeaderLogo = () => <Logo to='/'>asperitas</Logo>;
-
+<img src="iuvo.png" alt="logo">
 export default HeaderLogo;
