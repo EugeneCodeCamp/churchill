@@ -7,10 +7,6 @@ import SubmitButton from '../shared/form/SubmitButton';
 
 const postTypes = [
   {
-    label: 'problem',
-    value: 'text'
-  },
-  {
     label: 'Problem specifications',
     value: 'text'
   }
