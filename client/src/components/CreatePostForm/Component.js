@@ -8,7 +8,7 @@ import SubmitButton from '../shared/form/SubmitButton';
 const postTypes = [
   {
     label: 'link',
-    value: 'to change me go to client/src/components/CreatePostForm/Component.js change label: thing on 11th line'
+    value: 'text'
   },
   {
     label: 'to change me go to client/src/components/CreatePostForm/Component.js change label: thing on 14th line',
@@ -54,14 +54,14 @@ class CreatePostForm extends React.Component {
         >
           {this.mapCategories()}
         </Field>
-        <Field name='title' label='title' type='text' component={renderField} />
+        <Field name='title' label='Math problem' type='text' component={renderField} />
         {this.props.form.values.type === 'link' && (
           <Field name='url' label='url' type='url' component={renderField} />
         )}
         {this.props.form.values.type === 'text' && (
           <Field
             name='text'
-            label='text'
+            label='Description'
             type='textarea'
             component={renderField}
           />
