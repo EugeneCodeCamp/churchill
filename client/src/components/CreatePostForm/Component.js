@@ -8,10 +8,10 @@ import SubmitButton from '../shared/form/SubmitButton';
 const postTypes = [
   {
     label: 'link',
-    value: 'link'
+    value: 'to change me go to client/src/components/CreatePostForm/Component.js change label: thing on 11th line'
   },
   {
-    label: 'text',
+    label: 'to change me go to client/src/components/CreatePostForm/Component.js change label: thing on 14th line',
     value: 'text'
   }
 ];
