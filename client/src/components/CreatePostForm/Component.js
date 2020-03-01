@@ -51,17 +51,7 @@ class CreatePostForm extends React.Component {
           {this.mapCategories()}
         </Field>
         <Field name='title' label='Math problem' type='text' component={renderField} />
-        {this.props.form.values.type === 'link' && (
-          <Field name='url' label='url for useful materials, if none: put in https://www.google.com' type='url' component={renderField} />
-        )}
-        {this.props.form.values.type === 'text' && (
-          <Field
-            name='text'
-            label='Description'
-            type='textarea'
-            component={renderField}
-          />
-        )}
+        <Field name='text' label='What are extra details of the problem you are haveing' type='textarea' />
         <SubmitButton type='submit'>create post</SubmitButton>
       </Form>
     );
