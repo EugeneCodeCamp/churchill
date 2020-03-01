@@ -10,7 +10,7 @@ const Button = styled.button`
   padding: 8px 24px;
   background-color: ${props => props.theme.accent};
   cursor: pointer;
-  color: #ffffff;
+  color: #00FF00;
   outline: none;
   
   :hover {
