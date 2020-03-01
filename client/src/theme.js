@@ -25,9 +25,9 @@ const light = {
   mutedText: '#818e99',
   border: '#ebedf0',
   accent: '#1890ff',
-  pageBackground: '#f4f6f8',
+  pageBackground: '#F6E5C3',
   voteButtonHover: '#f2f2f2',
-  foreground: '#ffffff',
+  foreground: '#F6DAC3',
   activeBackground: '#fafafa',
   inputBackground: '#fcfcfc',
   shadow: 'rgba(0, 0, 0, 0.05)'
